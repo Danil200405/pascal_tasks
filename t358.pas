@@ -3,7 +3,7 @@ type
 
 
 
-function NumOfLed(n:integer):integer;
+function NumOfLed(n:longint):integer;
 	var 
 		res:integer;
 		a: mas;
@@ -29,7 +29,7 @@ end;
 
 
 var
-	n: integer;
+	n: longint;
 begin;
 	readln(n);
 	writeln(NumOfLed(n));
