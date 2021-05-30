@@ -9,5 +9,9 @@ begin
 	assign(f,filename);
 	rewrite(f);
 	writeln(f, message);
+	writeln(f, message);
+	writeln(f, message);
+	writeln(f, message);
+	writeln(f, message);
 	close(f);
 end.
